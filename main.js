@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const bodyParser = require("body-parser");
-const port = 3000;
+const port = 80;
 let MathJax = null;
 
 require('mathjax').init({
